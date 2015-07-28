@@ -20,5 +20,5 @@ $GLOBALS['PCT_CUSTOMELEMENTS']['ATTRIBUTES']['simpleColumn'] = array
 	'label'		=> &$GLOBALS['TL_LANG']['PCT_CUSTOMELEMENTS']['ATTRIBUTES']['simpleColumn'],
 	'path' 		=> 'system/modules/pct_customelements_attribute_simplecolumn',
 	'class'		=> 'PCT\CustomElements\Attributes\SimpleColumn',
-	'icon'		=> 'fa fa-db',
+	'icon'		=> 'fa fa-database',
 );
