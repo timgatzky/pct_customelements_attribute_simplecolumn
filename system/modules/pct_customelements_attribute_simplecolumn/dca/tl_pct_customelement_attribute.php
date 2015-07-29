@@ -29,7 +29,6 @@ $strType = 'simpleColumn';
  */
 $arrPalettes = $objDcaHelper->getPalettesAsArray('default');
 $arrPalettes = $objDcaHelper->removePalette('be_setting_legend');
-$arrPalettes = $objDcaHelper->removePalette('template_legend:hide');
 $arrPalettes = $objDcaHelper->removeField('cssID');
 $arrPalettes['settings_legend'] = array('defaultValue');
 $GLOBALS['TL_DCA']['tl_pct_customelement_attribute']['palettes'][$strType] = $objDcaHelper->generatePalettes($arrPalettes);

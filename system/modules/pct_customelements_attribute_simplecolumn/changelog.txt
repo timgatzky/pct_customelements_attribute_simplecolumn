@@ -1,3 +1,6 @@
+### 1.0.1
+Added: Bring back the template selection
+
 ### 1.0.0 (initial)
 Added: changelog.txt
 
